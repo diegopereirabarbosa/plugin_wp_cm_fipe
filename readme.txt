@@ -1,21 +1,21 @@
 ===== CM Fipe ======
 Colaboradores: Diego Pereira
-Tags: Tabela Fipe, Fipe veÌculos, consulta Fipe, pesquisa tabela Fipe, tabela Fipe veÌculos.
-Requer no mÌnimo: 4.0
-Testado atÈ: 5.1
-LicenÁa: GPLv2 ou posterior
+Tags: Tabela Fipe, Fipe ve√≠culos, consulta Fipe, pesquisa tabela Fipe, tabela Fipe ve√≠culos.
+Requer no m√≠nimo: 4.0
+Testado at√©: 5.1
+Licen√ßa: GPLv2 ou posterior
 
-===== DescriÁ„o =====
-O plugin CM Fipe realiza pesquisa na API da tabela Fipe de veÌculos do Brasil disponibilizada por parallelum.com.br, e n„o precisa criar tabelas no banco de dados na sua instalaÁ„o wordpress, deixando seu site mais r·pido com uso de requisiÁıes via Ajax. O plugin n„o cria link de entrada ou saÌda no seu wordpress, todas as requisiÁıes via API n„o compromete a seguranÁa do seu site.
+===== Descri√ß√£o =====
+O plugin CM Fipe realiza pesquisa na API da tabela Fipe de ve√≠culos do Brasil disponibilizada por parallelum.com.br, e n√£o precisa criar tabelas no banco de dados na sua instala√ß√£o wordpress, deixando seu site mais r√°pido com uso de requisi√ß√µes via Ajax. O plugin n√£o cria link de entrada ou sa√≠da no seu wordpress, todas as requisi√ß√µes via API n√£o compromete a seguran√ßa do seu site.
 Os principais recursos do CM Fipe:
-Consulta informaÁıes de veÌculos da tabela Fipe brasileira, integrando com wordpress, È possÌvel realizar pesquisas din‚micas sem precisar atualizar a p·gina. 
+Consulta informa√ß√µes de ve√≠culos da tabela Fipe brasileira, integrando com wordpress, √© poss√≠vel realizar pesquisas din√¢micas sem precisar atualizar a p√°gina. 
 
-==== Conex„o com serviÁos de terceiros =====
-O plugin faz a consulta na API parallelum.com.br  via HTTP REST, consumindo os dados da tabela Fipe, que s„o atualizados diariamente sem precisar que o usu·rio faÁa nada.
-Link do serviÁo: https://parallelum.com.br/fipe/api/v1/carros/marcas 
-Link polÌtica de uso: https://deividfortuna.github.io/fipe/
+==== Conex√£o com servi√ßos de terceiros =====
+O plugin faz a consulta na API parallelum.com.br  via HTTP REST, consumindo os dados da tabela Fipe, que s√£o atualizados diariamente sem precisar que o usu√°rio fa√ßa nada.
+Link do servi√ßo: https://parallelum.com.br/
+Link pol√≠tica de uso: https://deividfortuna.github.io/fipe/
 
 
-=== InstalaÁ„o ===
-Instale o plugin CM Fipe no seu wordpress, ative, e j· estar· pronto para ser adicionado na ·rea widgets do seu site.
-* Data de lanÁamento - 27 de abril de 2019 *
+=== Instala√ß√£o ===
+Instale o plugin CM Fipe no seu wordpress, ative, e j√° estar√° pronto para ser adicionado na √°rea widgets do seu site.
+* Data de lan√ßamento - 27 de abril de 2019 *
