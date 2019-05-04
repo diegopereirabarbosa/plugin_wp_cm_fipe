@@ -1,19 +1,20 @@
 <?php 
 /*
-	plugin name: CM Fipe
-	Plugin uri: http://conectmotors.com.br
+	plugin name: CM Consulta Fipe
+	Plugin uri: https://github.com/diegopereirabarbosa/plugin_wp_cm_fipe
 	Description: Esse plugin fará acesso a tabela fipe de veículos do Brasil
 	Version: 1.0
-	Author: Diego Pereira
 	License: GPLv2 or later
+	Author: Diego Pereira
+	Author uri: https://conectmotors.com.br
 
 
 */
-function cmfipe_register_widget() {
-register_widget( 'cm_fipe_widget' );
+function cm_consulta_fipe_register() {
+register_widget( 'cm_consulta_fipe' );
 }
 
-add_action( 'widgets_init', 'cmfipe_register_widget' );
+add_action( 'widgets_init', 'cm_consulta_fipe_register' );
 
 function insere_scripts() {
 	wp_enqueue_script("jquery");
@@ -21,14 +22,14 @@ function insere_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'insere_scripts' );
 
-class cm_fipe_widget extends WP_Widget {
+class cm_consulta_fipe extends WP_Widget {
 
 function __construct() {
 parent::__construct(
 // widget ID
-'cm_fipe_widget',
+'cm_consulta_fipe',
 // widget name
-__('CM Fipe', ' cm_widget_fipe'),
+__('CM Consulta Fipe', ' cm_widget_fipe'),
 // widget description
 array( 'description' => __( 'Consulta a tabela fipe', 'cm_widget_fipe' ), )
 );
