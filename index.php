@@ -16,11 +16,11 @@ register_widget( 'cm_consulta_fipe' );
 
 add_action( 'widgets_init', 'cm_consulta_fipe_register' );
 
-function insere_scripts() {
+function cm_carrega_scripts() {
 	wp_enqueue_script("jquery");
 	wp_enqueue_script('cm_fipe', plugin_dir_url(__FILE__) . 'js/cm_fipe.js',array('jquery'));
 }
-add_action( 'wp_enqueue_scripts', 'insere_scripts' );
+add_action( 'wp_enqueue_scripts', 'cm_carrega_scripts' );
 
 class cm_consulta_fipe extends WP_Widget {
 

@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-      var urlBase = "//fipe.parallelum.com.br/api/v1";
+      var urlBase = "//parallelum.com.br/fipe/api/v1";
       /** Marcas**/
 	$("#categoria").change(function() {
       $.getJSON(urlBase + "/" + jQuery("#categoria").val() + "/" + "marcas", function(data) {
